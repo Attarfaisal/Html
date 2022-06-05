@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&D</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="/BOOTSTRP/file.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg nav bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/BOOTSTRP/file.html"><img src="data:image/png;base64,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" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/BOOTSTRP/file.html">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Services</a>
+              </li> -->
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/BOOTSTRP/Overview.html">Overview</a></li>
+                  <li><a class="dropdown-item" href="/BOOTSTRP/Board of directors.html">Board of director</a></li>
+                  <li><a class="dropdown-item" href="/BOOTSTRP/Products.html">Products</a></li>
+                  <li><a class="dropdown-item" href="/BOOTSTRP/Mission.html">Mission And Culture</a></li>
+                  <li><a class="dropdown-item" href="/BOOTSTRP/Alliancing.html">Alliancing and Partnership</a></li>
+                  <li><a class="dropdown-item" href="/BOOTSTRP/Environment.html">Environment,health & safety</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/BOOTSTRP/service.html">Our Services</a>
+              </li> 
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Infrastructure
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/BOOTSTRP/mfg.html">Manufacturing facilities</a></li>
+                  <li><a class="dropdown-item" href="/BOOTSTRP/Rnd.html">R&D</a></li>
+                   </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Core Competencies
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Reaction Capabilities</a></li>
+                  <li><a class="dropdown-item" href="#">Specialized equipment</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Investor relations
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Financial information</a></li>
+                  <li><a class="dropdown-item" href="#">Share holding pattern</a></li>
+                  <li><a class="dropdown-item" href="#">Notice</a></li>
+                  <li><a class="dropdown-item" href="#">Investor contact</a></li>
+                  <li><a class="dropdown-item" href="#">Corporate Governance</a></li>
+                  </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Media
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Press release</a></li>
+                  <li><a class="dropdown-item" href="#">Photo gallery</a></li>
+                  </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Corporate office</a></li>
+                  <li><a class="dropdown-item" href="#">Manufacturing sites</a></li>
+                  </ul>
+              </li>
+            
+            </ul>
+
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div> -->
+
+      </nav>
+    <!--nav bar end-->
+
+</div>
+<div class="overview">
+    <h2>R&D</h2>
+</div>
+<div class="rnd">
+
+    <h1>Research & Development and Pilot Plant Facilities</h1>
+    <p class="rndclr-para">The R & D department has a dynamic team of scientists and chemists. There are well equipped laboratories with all the facilities for the R & D work. These are supported by a fully equipped pilot plant for scale up of process. All these facilities are supported by equipped quality control department.</p>
+    <h3 class="rndclr">Chemical Research</h3>
+    <p class="rndclr-para">Process development, improvements to increase efficiencies of processes there by making products competitive by focussing on</p>
+    <ol class="rndclr-para">
+        
+<li>   Cost effective synthesis</li>
+<li>Non infringing processes</li>
+<li>Ciprofloxacin Lactate IH</li>
+<li>Ciprofloxacin Betaine IH</li>
+<li>  Green chemistry</li> </ol>
+
+    <h3 class="rndclr">Analytical Research:</h3>
+    <ol class="rndclr-para">
+        
+<li>Method development</li>
+<li> Method validation</li>
+<li> Impurity profiling</li></ol>
+
+<h3 class="rndclr">Pilot Plant facilities</h3>
+<p class="rndclr-para">A state of the art pilot plant equipped with</p>
+<ol class="rndclr-para">
+    
+<li> Vapour phase high temperature catalytic bed reactors</li>
+<li> Hydrogenators</li>
+<li> Glass lined reactors.</li>
+<li>Stainless steel reactors.</li>
+<li> All supporting equipments for filtrations, storage and measuring tanks etc.</li>
+
+
+</div>
+
+ <!--footer start-->
+ <footer>
+    <div class="cin">
+      <h4>CIN:L24230TG1987PLC008016</h4>
+    </div>
+    <div class="footercontent">
+      <div class="office" >
+      
+        <h3>Corporate office:</h3>
+        <p>Godavari Drugs Limited <br>
+          1st Floor, Mayfair, Sardar patel Road,
+          Secundrabad,500003, Telangana, India.
+        </p>
+        <p>Phone:+91-40-2784 2602</p>
+        <p>Fax:+91-40-2784 9859</p>
+        <p>Email:info@godavaridrugs.com</p>
+      </div>
+      
+        <div class="office" >
+          <h3>Manufacturing Site:</h3>
+          <p>Godavari Drugs Limited <br>
+            A 6/2, MIDC 
+            Nanded-431603,MaharashtraIndia.
+          </p>
+          <p>Phone:+91-40-2784 2602</p>
+          <p>Fax:+91-40-2784 9859</p>
+          <p>Email:info@godavaridrugs.com</p>
+        </div>
+        <div class="office"  >
+          <h3>Subscribe</h3>
+         <ol class="officebtn"><li> <input type="email" placeholder="Your email" name="email" id="email"></li>
+         <li> <input type="button" value="Submit" class="subbtn"></li></ol>
+        </div>
+    </div>
+    <div class="gdlbtm">
+      <p>Copyright &copy;2022 Godavaridrugs. All rights reserved </p>
+      <p class="gdlbtm-para">developed by: WEBMATRIX</p>
+    </div>
+  </footer>
+  <!--footer end-->
+ 
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
